@@ -1,0 +1,127 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<base href="http://personal.us.es/anglez/" target=”_blank” />
+<title>Buzonweb pagina Principal</title>  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--  <link href="css/diseño.css" rel="stylesheet" type="text/css"> -->
+  <style type="text/css">
+legend {padding-top: 0em; padding-bottom: 0px; margin-left: 20px; margin-right: 20px; margin-top: 1px; margin-bottom: 1px; font-weight: bold; font-size: 0.4em; text-shadow: rgba(0, 0, 0, 0.2) 0 3px 4px;}
+
+  </style>
+<link href="css/tema.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+  <style type="text/css">
+  .carousel-inner .item img,
+  .carousel-inner .item img               { width: 100%;}
+  .container .carousel-indicators .active { background-color:orange;}
+  .container .carousel-indicators li      { border: 1px solid orange;}
+  .container .panel-footer                { margin-top:10px;}
+  </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <nav class="navbar navbar-inverse ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#miMenu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="https://sic.us.es">SIC</a>
+    </div>
+    <div class="collapse navbar-collapse" id="miMenu">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="https://buzonweb.us.es/correoweb">Correo Web</a></li>
+        <li><a href="https://buzonweb.us.es/agenda">Calendario</a></li> 
+        <li><a href="https://hdvirtual.us.es/discovirt/">Disco Virtual</a></li> 
+        <li><a href="https://identidad.us.es">Identidad</a></li>
+  		<li><a href="https://consigna.us.es/">Consigna</a></li>
+		<li><a href="https://webprint.us.es/">WebPrint</a></li>
+		<li><a href="https://descargas.us.es/">Descarga</a></li>
+	    <li><a href="https://seguimiento.us.es">Seguimiento</a></li>
+        <li><a href="https://sevius.us.es">SEVIUS</a></li>
+        <li><a href="https://sicremedy.us.es/arsys/">SOS</a></li>		
+      </ul>
+    </div>
+  </div>
+  </nav>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- menú -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+<legend>Sistema de Gestión de Información Personal</legend>
+    <!-- slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active"> 
+      <a href="https://buzonweb.us.es/correoweb">
+        <img src="img/buzonweb/slide-correoweb.png" alt="Correo Web" width="954" height="410">
+      </a>
+      </div>
+      <div class="item">
+	   <a href="https://buzonweb.us.es/agenda">
+        <img src="img/buzonweb/slide-calendario.png" alt="Calendario Virtual" width="954" height="410">
+      </a>		
+      </div>       
+      <div class="item">
+	  <a href="https://hdvirtual.us.es/discovirt/">
+        <img src="img/buzonweb/slide-ddv.png" alt="Disco Virtual" width="954" height="410">
+      </a>		
+      </div>
+      <div class="item">
+	  <a href="https://sevius.us.es">
+        <img src="img/buzonweb/slide-sevius.png" alt="SEVIUS" width="954" height="410">
+      </a>		
+      </div>
+      <div class="item">
+	  <a href="https://identidad.us.es">
+        <img src="img/buzonweb/slide-identidad.png" alt="Identidad" width="954" height="410">
+      </a>		
+      </div>
+      <div class="item">
+	  <a href="https://sicremedy.us.es/arsys/">
+        <img src="img/buzonweb/slide-sos.png" alt="SOS" width="954" height="410">
+      </a>		
+      </div>
+      <div class="item">
+	  <a href="https://webprint.us.es/">
+        <img src="img/buzonweb/slide-webprint.png" alt="WebPrint" width="954" height="410">
+      </a>		
+      </div>	  
+    </div>
+
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Siguiente</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+
+  </div>
+  <footer class=pie >
+<!-- <a href="buzonweb.new" <button type="button" id="irinicio" class="btn btn-info btn-sm">Inicio</button></a> -->
+ <a href="http://sic.us.es/servicios/herramientas-colaborativas" <button type="button" id="irfrases" class="btn btn-danger btn-sm">Descripción del servicio&nbsp;</button></a>
+ <a href="http://sic.us.es/servicios/correo-electronico/listas-de-distribucion"   <button type="button" id="irpuzle" class="btn btn-danger btn-sm">Listas de Correo </button></a>
+ <a href="http://sic.us.es/servicios/herramientas-colaborativas/dispositivos-moviles" <button type="button" id="ircalculadora" class="btn btn-danger btn-sm">Dispositivos Móviles&nbsp;</button></a>
+
+ 
+  <div class="panel-footer"><p> <a href="http://sic.us.es/" target=_blank >Servicio de Informática y Comunicaciones </a></p><p><a href="http://www.us.es/" target=_blank > Universidad de Sevilla </a></p>
+<p><small>Navegadores web compatibles:<br/> Internet Explorer 11+, Safari 8+, Firefox 37+, Google Chrome 40+</small></p> </div>
+  </footer>
+</div>
+</body>
+</html>
+
